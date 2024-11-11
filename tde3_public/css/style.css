@@ -1,0 +1,139 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgb(12, 12, 12);
+    color: rgb(255, 255, 255);
+}
+
+
+@font-face {
+    font-family: Corleone;
+    src: url(../Corleone-Due-Regular.otf);
+}
+
+
+.header__container{
+    color: rgb(194, 194, 22);
+    font-family: Corleone;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../D.corleone.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: 1000px top;
+}
+
+.header__title{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+.header__subtitle{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.header__menu{
+    border: 0.5px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 7px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+}
+
+.header__menu a{
+    text-decoration: none;
+    color: white;
+}
+
+.header__menu a:hover{
+    color: red;
+}
+
+.intro__banner{
+    padding-bottom: 10px;
+    display: flex;
+    margin: 20px;
+    font-family: Corleone;
+    flex-direction: column;
+    border-bottom: solid 0.5px white;
+}
+
+.intro__banner h2{
+    text-align: center;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.intro__banner p{
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.intro__banner a{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+    text-decoration: none ;
+    color: wheat;
+    font-size: 25px;
+}
+
+.intro__banner a:hover{
+    background-image: url(../pistol_icon_reverse.png) , url(../pistol_icon.png);
+    background-repeat: no-repeat , no-repeat;
+    background-position: 600px, 805px;
+    color: red;
+}
+
+.section__title{
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.section__content{
+    font-family: Corleone;
+}
+
+.section__content h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.section--gallery{
+    font-family: Corleone;
+}
+
+.gallery__grid{
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+}
+
+.gallery__img{
+    border: solid 1px white;
+    border-radius: 5px;
+}
+
+.secition--services{
+    font-family: Corleone;
+}
+
+.section__content{
+    margin: 20px;
+    font-size: 20px;
+}
+
+.section__content h2{
+    text-align: center;
+}
+
+.section--news{
+    font-family: Corleone;
+}
